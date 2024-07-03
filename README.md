@@ -1,36 +1,50 @@
 # Create-a-Database-and-Tables-using-Athena
 
 ## Introduction to Amazon Athena
-* What is Amazon Athena?
+
+### What is Amazon Athena?
 Amazon Athena is an interactive query service that allows you to analyze data in Amazon Simple Storage Service (Amazon S3) using standard SQL. Athena is serverless, so there's no infrastructure to manage, and you can start querying immediately. You simply point Athena at your data stored in Amazon S3, define your schema, and start querying using standard SQL. Athena scales automatically—executing queries in parallel—so results are fast, even with large datasets and complex queries.
 
-* How Can Amazon Athena Be Used?
+### How Can Amazon Athena Be Used?
 Amazon Athena can be used for various use cases, including:
 
 - Log Analysis: Analyze logs from web applications, mobile applications, or any other service where logs are generated. For example, you can query Apache access logs stored in S3.
+
 - Data Lake Analytics: Query data stored in your data lake without the need for loading or ETL processes. This is useful for data exploration and ad-hoc querying.
+
 - Business Intelligence: Integrate Athena with business intelligence tools like Amazon QuickSight to visualize data and generate reports.
+
 - Big Data Processing: Combine Athena with other AWS big data services like AWS Glue, Amazon Redshift, and Amazon EMR for comprehensive data processing workflows.
+
 - Security Analysis: Analyze security logs and generate reports to monitor security posture and detect anomalies.
+
 - Cost Management: Query AWS Cost and Usage Reports stored in S3 to analyze spending patterns and optimize costs.
-* Integration with Other AWS Services
+
+### Integration with Other AWS Services
 Amazon Athena integrates seamlessly with various AWS services to enhance its functionality and enable more comprehensive data analytics workflows:
 
 - Amazon S3: The primary storage for data queried by Athena. S3 provides a scalable, durable, and secure location to store data.
+  
 - AWS Glue: AWS Glue can be used to catalog data in S3, making it easier for Athena to discover and query data. Glue also provides ETL capabilities to transform data before querying.
+  
 - Amazon QuickSight: A business intelligence service that can directly query data in Athena for visualization and reporting.
+
 - AWS Lambda: Lambda can be used to trigger Athena queries based on events, automating data analysis workflows.
+
 - Amazon Redshift: Data can be queried from Redshift and combined with S3 data in Athena to enable hybrid data analysis.
+
 - Amazon CloudWatch: Athena query logs can be sent to CloudWatch for monitoring and alerting on query performance and errors.
+
 - AWS IAM: IAM provides fine-grained access control to Athena resources, ensuring secure access to data.
 
 ## Detailed Explanation of the Assignment
 ### Objective
+
 Create a database and associated tables using AWS Athena and further optimize the database using partitioning and bucketing. Execute queries against the database tables to retrieve the required data.
 
 ### Scenario:
 	
- You are an analyst in an organization that has a ticketing website that allows users to buy and sell tickets online for various events like sports, music concerts, and live shows. As an analyst, you can monitor and track the rate of success for the sellers, and identify the bestselling events, venues, and seasons. With the help of this data you, as an analyst, can provide incentives to frequent buyers and sellers. You can also use this data to run marketing campaigns and attract prospective users. Using the 7 different data files, your company wants you to create tables and views on this data and then query the data.
+You are an analyst in an organization that has a ticketing website that allows users to buy and sell tickets online for various events like sports, music concerts, and live shows. As an analyst, you can monitor and track the rate of success for the sellers, and identify the bestselling events, venues, and seasons. With the help of this data you, as an analyst, can provide incentives to frequent buyers and sellers. You can also use this data to run marketing campaigns and attract prospective users. Using the 7 different data files, your company wants you to create tables and views on this data and then query the data.
 
 ### Step-by-Step Guide
 #### Step 1: Returning to the AWS Management Console
