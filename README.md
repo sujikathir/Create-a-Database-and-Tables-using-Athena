@@ -25,10 +25,10 @@ Amazon Athena integrates seamlessly with various AWS services to enhance its fun
 - AWS IAM: IAM provides fine-grained access control to Athena resources, ensuring secure access to data.
 
 ## Detailed Explanation of the Assignment
-* Objective
+* *Objective
 Create a database and associated tables using AWS Athena and further optimize the database using partitioning and bucketing. Execute queries against the database tables to retrieve the required data.
 
-* Scenario:
+* *Scenario:
 	
  You are an analyst in an organization that has a ticketing website that allows users to buy and sell tickets online for various events like sports, music concerts, and live shows. As an analyst, you can monitor and track the rate of success for the sellers, and identify the bestselling events, venues, and seasons. With the help of this data you, as an analyst, can provide incentives to frequent buyers and sellers. You can also use this data to run marketing campaigns and attract prospective users. Using the 7 different data files, your company wants you to create tables and views on this data and then query the data.
 
