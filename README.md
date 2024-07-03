@@ -223,3 +223,6 @@ Create a partition for quarter = 4 by executing the following query:
 Execute the query:
 
 ![](https://github.com/sujikathir/Create-a-Database-and-Tables-using-Athena/blob/main/source/42.%20compare%20query.png)
+
+### Conclusion
+By following this step-by-step guide, you will have successfully created and optimized a database in AWS Athena, created tables and views, and executed queries to retrieve meaningful data insights. This assignment demonstrates the power and flexibility of AWS Athena for big data analytics, helping you leverage your data for better decision-making and strategic planning.
