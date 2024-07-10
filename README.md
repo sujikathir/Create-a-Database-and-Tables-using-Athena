@@ -1,4 +1,4 @@
-# Create-a-Database-and-Tables-using-Athena
+# Create-Database-and-Tables-using-Athena
 
 ## Introduction to Amazon Athena
 
