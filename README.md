@@ -1,5 +1,7 @@
 # Create-Database-and-Tables-using-Athena
 
+![](https://github.com/sujikathir/Create-a-Database-and-Tables-using-Athena/blob/main/source/Cover%20pic.png)
+
 ## Introduction to Amazon Athena
 
 ### What is Amazon Athena?
